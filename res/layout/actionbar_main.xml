@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/relative_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/actionbar_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/location" />
+
+    <TextView
+        android:id="@+id/actionbar_right_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/cart_empty" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_toLeftOf="@id/actionbar_right_textview"
+        android:layout_toRightOf="@id/actionbar_location"
+        android:src="@drawable/actionbar_img_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/actionbar_right_textview"
+        android:layout_marginRight="6dp"
+        android:text="购物车"
+        android:textSize="8sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/actionbar_right_textview"
+        android:layout_marginLeft="8dp"
+        android:text="杭州"
+        android:textSize="8sp" />
+
+</RelativeLayout>

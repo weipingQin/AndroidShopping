@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name"				 >我的淘汽档口</string>
+    <string name="searchview_hit"		 >4万车型4000万配件</string>
+    <string name="click_again_to_exit	">再按一次退出当前应用</string>
+    <string name="empty_cart"			 >亲,您购物车中没有任何商品</string>
+
+</resources>

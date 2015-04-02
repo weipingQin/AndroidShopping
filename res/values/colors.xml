@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="relative_bg"			>#fdfdfd</color>
+    <color name="doctor_btn_text_bg"	>#ecf0f1</color>
+    <color name="bg"					>#ECF0F1</color>
+    <color name="main_menu_bg"			>#273447</color>
+    <color name="title"					>#333333</color>
+    <color name="menu"					>#f1f1f1</color>
+    <color name="desc"					>#666666</color>
+    <color name="hint"					>#999999</color>
+    <color name="blue"					>#0e70ad</color>
+    <color name="register_line"			>#b1b1b1</color>
+    <color name="line"					>#dfe4e6</color>
+    <color name="list_line"				>#e3e3e3</color>
+    <color name="key_item_bg"			>#FAFBFB</color>
+    <color name="miaodou_bg"			>#ecf0f1</color>
+    <color name="register_textinfo"		>#99999999</color>
+    <color name="register_blue"			>#47abd3</color>
+    <color name="open_door_modify_bg"	>#ecf0f1</color>
+    <color name="text_grey"				>#999999</color>
+    <color name="login_btn_down"		>#d4d4d4</color>
+    <color name="submit"				>#d4d4d4</color>
+    <color name="register_bg"			>#fbfbfb</color>
+    <color name="login_text_color"		>#0d6a8f</color>
+    <color name="orign"					>#ff5200</color>
+    <color name="find_home_detail_text"	>#636363</color>
+    <color name="aichong_bg"			>#efeff4</color>
+    <color name="blue_btn"				>#39b9f0</color>
+    <color name="main_top_bar_bg"		>#b5ff6e</color>
+    <color name="main_list_item_count_green">#85D636</color>
+</resources>

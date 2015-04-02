@@ -1,0 +1,75 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    
+      <!-- actionbar样式 -->
+    <style name="Theme.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">@color/relative_bg</item>
+        <item name="background">@color/relative_bg</item>
+        <item name="android:titleTextStyle">@style/Theme.ActionBar.TitleTextStyle</item>
+        <item name="titleTextStyle">@style/Theme.ActionBar.TitleTextStyle</item>
+    </style>
+    
+     <!--   actionbar字体样式 -->
+   <style name="Theme.ActionBar.TitleTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+     <!-- menu弹出背景 -->
+    <style name="Theme.PopupMenu" parent="Widget.Sherlock.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/dropmenu_bg</item>
+    </style>
+    
+     <!--  弹出menu list item样式 -->
+    <style name="Theme.DropDownItemStyle" parent="TextAppearance.Sherlock.Light.Widget.PopupMenu.Large">
+        <item name="android:textColor">@color/title</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    
+     <!--  弹出menu list样式 -->
+    <style name="Theme.DropDownListView" parent="Widget.Sherlock.ListView.DropDown">
+        <item name="android:divider">@drawable/index_dropmenu_line</item>
+        <item name="android:listSelector">@drawable/list_item_selector</item>
+    </style>
+    
+     <style name="Theme.ActionMenuTextAppearance" parent="@android:style/TextAppearance.Holo.Large">  
+		<item name="android:textSize">18sp</item>  
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textStyle">normal</item>  
+		<item name="android:textAllCaps">true</item> 
+	</style>
+
+     <style name="Theme.AppTheme" parent="Theme.Sherlock.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowContentOverlay">@null</item>
+        <item name="android:actionBarItemBackground">@drawable/action_bar_press_selector</item>
+        <item name="actionBarItemBackground">@drawable/action_bar_press_selector</item>
+        <item name="actionModeBackground">@drawable/action_bar_press_selector</item>
+        <item name="android:actionModeBackground">@drawable/action_bar_press_selector</item>
+        <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+        <item name="actionBarStyle">@style/Theme.ActionBar</item>
+        <item name="android:popupMenuStyle">@style/Theme.PopupMenu</item>
+        <item name="popupMenuStyle">@style/Theme.PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/Theme.DropDownListView</item>
+        <item name="dropDownListViewStyle">@style/Theme.DropDownListView</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/Theme.DropDownItemStyle</item>
+        <item name="textAppearanceLargePopupMenu">@style/Theme.DropDownItemStyle</item>
+        <item name="android:homeAsUpIndicator">@android:color/transparent</item>
+        <item name="homeAsUpIndicator">@android:color/transparent</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="android:actionMenuTextAppearance">@style/Theme.ActionMenuTextAppearance</item>
+        <item name="actionMenuTextAppearance">@style/Theme.ActionMenuTextAppearance</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>  
+        
+    </style>
+</resources>
